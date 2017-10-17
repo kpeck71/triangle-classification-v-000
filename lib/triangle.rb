@@ -19,7 +19,7 @@ attr_reader :x, :y, :z
   end
 
   def triangle?
-    if x > 0 && y > 0 && z > 0 && ( x + y > z && x + z > y && y + z > x)
+    if x > 0 && y > 0 && z > 0 &&  x + y > z && x + z > y && y + z > x
       true
     else
       begin
